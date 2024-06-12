@@ -6,4 +6,9 @@ while(True):
     print("2.- Restar")
     print("")
     op=int(input("Ingrese una opcion : "))
+    if op==1:
+        n1=int(input("Ingrese numero 1 : "))
+        n2=int(input("Ingrese numero 2 : "))
+        total = n1+n2
+        print("el resultado es  : ",total)
     
